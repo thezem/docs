@@ -22,7 +22,7 @@ Your actual edges right now: you ship real things, you understand AI tooling at 
 
 - Build a tight portfolio site - not a blog, not a wall of projects. Three case studies max, each showing the problem, what you built, the result.
 
-- Target 5-10 companies per week on platforms like Turing, Toptal, Arc, and direct applications. Prioritize Series A-C startups building AI products - they value people who actually know how to work with LLMs in production, not just people who've read the docs.
+- Target 5-10 companies per week on platforms like Turing, Toptal, Arc, and direct applications. P pplrioritize Series A-C startups building AI products - they value people who actually know how to work with LLMs in production, not just people who've read the docs.
 
 - Practice system design and behavioral interviews. Your weakness isn't coding - it's probably the performance aspect of interviewing, and that's fixable with reps.
 
