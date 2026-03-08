@@ -70,6 +70,8 @@ Your actual edges right now: you ship real things, you understand AI tooling at 
 
 - When you find something, validate before building. Talk to 10 people who have the problem. If 3+ say "I'd pay for that today," build an MVP in a weekend using everything you know about fast AI-assisted development. If not, keep looking.
 
+&nbsp;
+
 **Upside:** If you hit on the right problem, a small product can generate $2-5K/month relatively fast, and that changes your relationship with employment entirely.
 
 **Risk:** Most indie products fail. The search for the right problem can take months. And if you're doing this alongside a full-time job, you have maybe 10-15 hours a week - which means you need to be surgical about what you spend that time on.
