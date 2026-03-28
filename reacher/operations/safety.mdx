@@ -115,7 +115,7 @@ SSH_ALLOWED_DIRS=/home/deploy,/tmp,/var/log
 PROXY_ALLOWED_DOMAINS=api.github.com,api.linear.app,api.notion.com
 ```
 
-This prevents the server from being used as an open proxy. Add only the API domains your workflows actually need. See [Domain allowlist](/configuration/domain-allowlist) for the full configuration reference.
+This prevents the server from being used as an open proxy. Add only the API domains your workflows actually need. See [Domain allowlist](/reacher/configuration/domain-allowlist) for the full configuration reference.
 
 ---
 
@@ -138,7 +138,7 @@ This is enforced in handler signatures rather than runtime checks. A tool that d
 
 Every tool call is logged to a file with timestamp, tool name, sanitized arguments, and result. Sensitive keys (`token`, `password`, `secret`, `key`) are stripped automatically before writing.
 
-See [Audit log](/operations/audit-log) for the full reference.
+See [Audit log](/reacher/operations/audit-log) for the full reference.
 
 ---
 
@@ -146,4 +146,4 @@ See [Audit log](/operations/audit-log) for the full reference.
 
 When `DRY_RUN=true`, `ssh_exec` evaluates safety rules and returns a `would_execute` response without making any SSH connection. Useful for validating your setup or testing a new blocklist configuration.
 
-See [Dry-run mode](/operations/dry-run) for details.
+See [Dry-run mode](/reacher/operations/dry-run) for details.

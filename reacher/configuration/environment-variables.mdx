@@ -69,7 +69,7 @@ cp .env.example .env
   PROXY_ALLOWED_DOMAINS=api.github.com,api.linear.app,api.notion.com
   ```
 
-  Matching is done against the exact hostname parsed from the request URL. See [Domain allowlist](/configuration/domain-allowlist) for a full explanation.
+  Matching is done against the exact hostname parsed from the request URL. See [Domain allowlist](/reacher/configuration/domain-allowlist) for a full explanation.
 </ParamField>
 
 <ParamField path="FETCH_EXTERNAL_TOKEN_MAP" type="string" default='{}' >
@@ -79,7 +79,7 @@ cp .env.example .env
   FETCH_EXTERNAL_TOKEN_MAP={"api.github.com":"GITHUB_TOKEN","api.linear.app":"LINEAR_API_TOKEN"}
   ```
 
-  The token value never leaves the server — Claude only sees the result of the API call. See [Domain allowlist](/configuration/domain-allowlist) for examples.
+  The token value never leaves the server — Claude only sees the result of the API call. See [Domain allowlist](/reacher/configuration/domain-allowlist) for examples.
 </ParamField>
 
 ---
@@ -188,4 +188,4 @@ cp .env.example .env
 
 When the same setting exists in both `.env` and `reacher.config.yaml`, the environment variable always wins. This makes it safe to commit a base `reacher.config.yaml` to version control and override specific values per deployment via environment variables.
 
-See [reacher.config.yaml reference](/configuration/reacher-config) for full details on the YAML config file.
+See [reacher.config.yaml reference](/reacher/configuration/reacher-config) for full details on the YAML config file.
